@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head><title>EXP2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.topnav {
+  overflow: hidden;
+  background-color:  #173983;
+}
+
+.topnav a {
+  float: left;
+  color: #c2bebe;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.topnav a.left {
+  float: right;
+  color: #c2bebe;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.topnav a:hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #ebeef0;
+}
+
+
+
+.topnav a.active {
+  background-color: #173983;
+  color: white;
+}
+.top-left {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  color:#ebeef0;
+  font-size: 30px;
+}
+.list{
+    background-color: #5b5c61;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 15px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  /*display: table;*/
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="navbar-brand" href="https://d2glwx35mhbfwf.cloudfront.net/v13.4.18/logo-with-padding.svg">
+    <img src="https://d2glwx35mhbfwf.cloudfront.net/v13.4.18/logo-with-padding.svg" alt="logo" style="width:60px;">
+  </a>
+  <a href="#home">CURRENT STUDENTS</a>
+  <a href="#news">STAFF</a>
+  <a href="#contact">LIBRARY</a>
+  <a href="#about">ALUMINI AND GIVING</a>
+  <a class="left" href="Search"><i class="fa fa-fw fa-search"></i>Search</a>
+  <a class="left" href="#contactus">Contact</a>
+  <br><br>
+  <b><a style="margin-left: -520px;color: white;" href="Study at Melbourne">Study at Melbourne</a>
+  <a style="margin-left: -350px;color: white;" href="Research and Innovation">Research and Innovation</a>
+  
+  <a style="margin-left: -150px;color: white;" href="Safety and Respect">Safety and Respect</a>
+  </b>
+</div>
+
+<div>
+ 
+  <img src="https://www.unimelb.edu.au/__data/assets/image/0009/4430538/woman-with-green-jumper-noframe.min.jpg" width="1600" height="400">
+  <div class="top-left"><span style="font-size:40px;">Study with us in 2023</span><br><br>
+    <a href="C:\Users\Win\Documents\wt\exp2-2.html"><span style="color: rgb(236, 234, 234)">Undergraduate study ></span></a><br><hr style="width:70%;text-align:left;margin-left:0;background-color: rgb(236, 234, 234)">
+    <a href="#GraduateStudy"><span style="color: rgb(236, 234, 234)">Graduate Study></span></a><br><hr style="width:70%;text-align:left;margin-left:0;background-color: rgb(236, 234, 234)">
+    <a href="#Professionaldevelopment"><span style="color: rgb(236, 234, 234)">Professional development ></span></a></div>
+  
+
+<div class="row">
+        <div class="column" style="background-color:#ccc;">
+          <h4><b><span style="color:#173983">Courses</span></b></h4>
+          <p>Find the right course and see what makes studying with us different</p>
+        </div>
+        <div class="column" style="background-color:#ccc;">
+          <h4><b><span style="color:#173983">Research</span></b></h4>
+          <p>Discover outstanding research, resources, experts and facilities</p>
+        </div>
+        <div class="column" style="background-color:#ccc;">
+          <h4><b><span style="color:#173983">Partnerships</span></b></h4>
+          <p>Innovate with our people, technology and outstanding facilities</p>
+        </div>
+        <div class="column" style="background-color:#ccc;">
+          <h4><b><span style="color:#173983">Events</span></b></h4>
+          <p>Connect with your community through <br>virtual and in-person events</p>
+        </div>
+      </div>
+
+</body>
+</html>
